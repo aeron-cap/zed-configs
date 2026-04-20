@@ -1,0 +1,49 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "ctrl-h": "pane::ActivatePreviousItem",
+      "ctrl-l": "pane::ActivateNextItem",
+
+      "space b": "git::Blame",
+      "space f f": "editor::Format",
+      "space e": "project_panel::ToggleFocus",
+      "space r": "editor::Rename",
+      "space a": "editor::ToggleCodeActions",
+      "space w": "workspace::Save",
+      "space q": "pane::CloseActiveItem",
+      "space s s": "outline::Toggle",
+      "space s f": "file_finder::Toggle",
+      "space /": "workspace::NewSearch",
+
+      "space v": "pane::SplitRight",
+      "space -": "pane::SplitDown",
+
+      "g i": "editor::GoToImplementation",
+      "g D": "editor::GoToDeclaration",
+      "g d": "editor::GoToDefinition",
+      "g r": "editor::FindAllReferences",
+      "K": "editor::Hover",
+    },
+  },
+  {
+    "context": "vim_mode == insert",
+    "bindings": {
+      "j k": "vim::NormalBefore",
+    },
+  },
+  {
+    "context": "vim_mode == visual",
+    "bindings": {
+      ">": "editor::Indent",
+      "<": "editor::Outdent",
+    },
+  },
+]

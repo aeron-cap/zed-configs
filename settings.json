@@ -7,6 +7,17 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "colorize_brackets": true,
+  "indent_guides": {
+    "background_coloring": "disabled",
+    "coloring": "indent_aware"
+  },
+  "sticky_scroll": {
+    "enabled": false
+  },
+  "terminal": {
+    "font_family": "0xProto Nerd Font Mono"
+  },
   "git_panel": {
     "tree_view": true
   },

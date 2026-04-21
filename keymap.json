@@ -17,7 +17,7 @@
       "space e": "project_panel::ToggleFocus",
       "space r": "editor::Rename",
       "space a": "editor::ToggleCodeActions",
-      "space w": "workspace::Save",
+      "space w": "workspace::SaveWithoutFormat",
       "space q": "pane::CloseActiveItem",
       "space s s": "outline::Toggle",
       "space s f": "file_finder::Toggle",

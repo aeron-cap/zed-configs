@@ -22,7 +22,7 @@
       "space s s": "outline::Toggle",
       "space s f": "file_finder::Toggle",
       "space /": "workspace::NewSearch",
-      "space g g": "git_graph::Open",
+      "space g G": "git_graph::Open",
 
       "space v": "pane::SplitRight",
       "space -": "pane::SplitDown",

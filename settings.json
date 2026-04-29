@@ -52,4 +52,19 @@
     "mode": "subtle",
     "provider": "copilot",
   },
+  "lsp": {
+    "tinymist": {
+      "initialization_options": {
+        "preview": {
+          "background": {
+            "enabled": true
+          }
+        }
+      },      
+      "settings": {
+        "exportPdf": "onSave",
+        "outputPath": "$root/resume/$name"
+      }
+    }
+  }
 }
